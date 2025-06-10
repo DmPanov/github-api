@@ -30,6 +30,7 @@ public class GHAsset extends GHObject {
 
     private String browserDownloadUrl;
     private String contentType;
+    private String digest;
     private long downloadCount;
     private String label;
     private String name;
@@ -70,6 +71,15 @@ public class GHAsset extends GHObject {
      */
     public String getContentType() {
         return contentType;
+    }
+
+    /**
+     * Gets digest.
+     *
+     * @return the digest
+     */
+    public String getDigest() {
+        return digest;
     }
 
     /**
